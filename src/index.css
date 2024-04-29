@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'neu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/Rejouice-Headline\ \(1\).ttf) format('ttf');
+}
+
+
+
+
+*{
+font-family: neu;
+}
