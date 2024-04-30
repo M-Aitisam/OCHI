@@ -7,6 +7,7 @@ import Text from "./components/Text";
 import Img1 from "./components/Img1";
 import Eyes from "./components/Eyes";
 import Featured from "./components/Featured";
+import Cards from "./components/Cards";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Img1 />
       <Eyes />
       <Featured />
+      <Cards />
     </div>
   );
 }
