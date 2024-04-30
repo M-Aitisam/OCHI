@@ -6,7 +6,7 @@ import React , { useEffect, useRef, useState } from "react";
 
     const[rotate, setRotate]=useState(0);
     
-    useEffect(() => {
+    useEffect(() => {     // useEffect is a hook that allows you to perform side effects in function components.
       window.addEventListener("mousemove", (e) => {
         let mouseX = e.clientX;
         let mouseY = e.clientY;
@@ -14,7 +14,7 @@ import React , { useEffect, useRef, useState } from "react";
         let deltaX = mouseX - window.innerWidth / 2;
         let deltaY = mouseY - window.innerHeight / 2;
       
-       var angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
+       var angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);  //57.2958
         setRotate(angle-180);
       })
     })
